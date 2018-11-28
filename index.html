@@ -52,8 +52,13 @@
     <h2>Контакты</h2>
     <p class="talk">Вы можете забрать товар сами, заехав в наш офис:</p>
     <div>
-      <a class="maps" href="#"><img src="img\map.jpg" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+      <a class="maps" href="#"><img src="img\map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
     </div>
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <p>
+      <img src="img\map-popup.jpg" width="940" height="446.2" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    </p>
+    <button class="modal-close" type="button">Закрыть</button>
     <a class="site-map-navigation" href="#">Заблудились? Напишите нам!</a>
   </section>
   <footer class="main-footer">
@@ -98,6 +103,24 @@
       <span><a class="button-mail" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></span>
     </div>
   </footer>
+  <!-- Форма e-mail -->
+  <section class="modal-email">
+    <form class="email-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label class="visually-hidden" for="user-name">Ваше имя:</label>
+        <input class="name-icon-user" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-email">Ваш e-mail:</label>
+        <input class="mail-icon-user" id="user-email" type="text" name="e-mail" placeholder="email@example.com">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-text">Текст письма:</label>
+        <input class="text-icon-user" id="user-text" type="text" name="text" placeholder="В свободной форме">
+      </p>
+    </form>
+    <button class="modal-button" type="submit">Отправить</button>
+  </section>
 </body>
 
 </html>
