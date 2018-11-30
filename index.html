@@ -54,11 +54,6 @@
     <div>
       <a class="maps" href="#"><img src="img\map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
     </div>
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <p>
-      <img src="img\map-popup.jpg" width="940" height="446.2" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-    </p>
-    <button class="modal-close" type="button">Закрыть</button>
     <a class="site-map-navigation" href="#">Заблудились? Напишите нам!</a>
   </section>
   <footer class="main-footer">
@@ -107,20 +102,29 @@
   <section class="modal-email">
     <form class="email-form" action="https://echo.htmlacademy.ru" method="post">
       <p>
-        <label class="visually-hidden" for="user-name">Ваше имя:</label>
+        <label class="text-name" for="user-name">Ваше имя:</label>
         <input class="name-icon-user" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
       </p>
       <p>
-        <label class="visually-hidden" for="user-email">Ваш e-mail:</label>
+        <label class="text-mail" for="user-email">Ваш e-mail:</label>
         <input class="mail-icon-user" id="user-email" type="text" name="e-mail" placeholder="email@example.com">
       </p>
       <p>
-        <label class="visually-hidden" for="user-text">Текст письма:</label>
-        <input class="text-icon-user" id="user-text" type="text" name="text" placeholder="В свободной форме">
+        <label class="text-letter" for="user-text">Текст письма:</label>
+        <textarea class="text-icon-user" id="user-text" cols="50" rows="5" name="text" placeholder="В свободной форме"></textarea>
       </p>
     </form>
     <button class="modal-button" type="submit">Отправить</button>
+    <button class="visually-hidden modal-close" type="button">Закрыть</button>
   </section>
+  <!-- Карта -->
+  <h2 class="visually-hidden">Как до нас добраться</h2>
+  <div>
+    <p>
+      <img src="img\map-popup.jpg" width="940" height="446.2" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    </p>
+    <button class="visually-hidden modal-close" type="button">Закрыть</button>
+  </div>
 </body>
 
 </html>
