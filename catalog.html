@@ -4,13 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <nav class="main-navigation">
       <h1><a class="main-header-logo" href="index.html">Техномарт</a></h1>
-      <ul class="top-menu">
+      <ul class="site-navigation">
         <li class="search">
           <form>
             <label class="visually-hidden" for="search-icon">Поиск</label>
@@ -22,16 +25,21 @@
         <li class="basket"><a href="basket.html">Корзина: 10</a></li>
         <li class="order"><a href="order.html">Оформить заказ</a></li>
       </ul>
-      <p class="aside-info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+      <p class="aside-info">
+        Интернет-магазин
+        строительных материалов
+        и инструментов для ремонта</p>
       <div class="contacts">
-        <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
-        <span class="adress-info">г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</span>
+        <p>
+          <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          <span class="adress-info">г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</span>
+        </p>
       </div>
       <div class="user-profile">
         <a class="profile" href="#"><img src="img\icon-user.svg" alt="Иконка пользователя">Равшан Джамшутович</a>
         <a class="profile-exit" href="#">Выйти</a>
       </div>
-      <div>
+      <div class="user-office">
         <a class="orders" href="#">Мои заказы</a>
         <a class="private-office" href="#">Личный кабинет</a>
       </div>
@@ -49,12 +57,14 @@
   <div class="interactive-menu">
     <ul class="nav-menu">
       <li class="home"><a href="index.html"><img src="img\icon-home.svg" alt="Главная"></a></li>
-      <li class="catalog"><a href="catalog.html">Каталог</a></li>
-      <li class="tool"><a href="#">Инструмент</a></li>
-      <li class="perforators"><a href="#">Перфораторы</a></li>
+      <li class="catalog"><a href="catalog.html">КАТАЛОГ</a></li>
+      <li class="tool"><a href="#">ИНСТРУМЕНТ</a></li>
+      <li class="perforators"><a href="#">ПЕРФОРАТОРЫ</a></li>
     </ul>
   </div>
-  <h1 class="main-heading">Перфораторы</h1>
+  <div>
+    <h1 class="main-heading">ПЕРФОРАТОРЫ</h1>
+  </div>
   <main class="container">
     <!-- Форма фильтра товаров -->
     <section class="filters">
@@ -159,8 +169,8 @@
           <div class="sale-price">22500</div>
           <div class="catalog-item-price">15500</div>
           <div class="card-item">
-            <button class="button-buy" type="button">Купить</button>
-            <button class="button-buy-1" type="button">В закладки</button>
+            <button class="button-buy" type="button">КУПИТЬ</button>
+            <button class="button-buy-1" type="button">В ЗАКЛАДКИ</button>
           </div>
         </li>
 
@@ -242,10 +252,12 @@
     </section>
   </main>
   <footer class="main-footer">
-    <h2><a class="main-header-logo" href="index.html">Логотип «Техномарт»</a></h2>
+    <h2><a class="main-header-logo" href="index.html">Техномарт</a></h2>
     <div class="footer-contacts">
-      <span class="aside-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-      <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+      <p class="aside-adress">
+      г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+      <a class="phone-number-footer" href="tel:+78125550555">+7 (812) 555-05-55</a>
+      </p>
     </div>
     <section class="footer-info">
       <h2 class="visually-hidden">Меню навигации</h2>
@@ -264,8 +276,10 @@
       </ul>
     </section>
     <div class="copyright">
+      <p>
       <span class="copy">© 2010–2017 Компания «Техномарт»</span>
       <span class="copy-info">Все права защищены</span>
+      </p>
     </div>
     <div class="footer-social">
       <ul>
@@ -275,12 +289,16 @@
       </ul>
     </div>
     <div class="footer-copyright">
-      <span class="feedback"><b>Обратная связь:</b></span>
-      <span><a class="button" href="#">mail@htmlacademy.ru</a></span>
+      <p>
+        <span class="feedback">Обратная связь:</span>
+        <span><a class="button" href="#">mail@htmlacademy.ru</a></span>
+      </p>
     </div>
     <div class="footer-copyright-0">
-      <span class="footer-copyright-1"><b>Разработано -</b></span>
-      <span><a class="button-mail" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></span>
+      <p>
+        <span class="footer-copyright-1">Разработано -</span>
+        <span><a class="button-mail" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></span>
+      </p>
     </div>
   </footer>
   <!-- Товар добавлен в корзину -->

@@ -4,24 +4,38 @@
 <head>
   <meta charset="utf-8">
   <title>Главная: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <nav class="main-navigation">
       <h1><a class="main-header-logo">Техномарт</a></h1>
-      <ul class="top-menu">
-        <li class="search"><a href="search.html">Поиск</a></li>
+      <ul class="site-navigation">
+        <li class="search">
+          <form>
+            <label class="visually-hidden" for="search-icon">Поиск</label>
+            <input class="search-icon" id="search-icon" name="search" type="text" placeholder="Поиск:">
+            <button class="visually-hidden button-search" type="button">Иконка</button>
+          </form>
+        </li>
         <li class="bookmarks"><a href="bookmarks.html">Закладки</a></li>
         <li class="basket"><a href="basket.html">Корзина: 0</a></li>
         <li class="order"><a href="order.html">Оформить заказ</a></li>
       </ul>
-      <p class="aside-info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+      <p class="aside-info">
+        Интернет-магазин
+        строительных материалов
+        и инструментов для ремонта</p>
       <div class="contacts">
-        <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
-        <span class="adress-info">г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</span>
+        <p>
+          <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          <span class="adress-info">г. Санкт-Петербург, ул. Б.Конюшенная д.19/8</span>
+        </p>
       </div>
-      <ul class="login-navigation">
+      <ul class="user-navigation">
         <li class="open-button"><a href="login.html">Войти</a></li>
         <li class="registration"><a href="registration.html">Регистрация</a></li>
       </ul>
@@ -38,19 +52,28 @@
   </header>
   <!-- Здесь будет main content -->
   <section>
-    <h2>Компания «Техномарт»</h2>
-    <p class="paragraph-1">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-    <p class="paragraph-2">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
-    <ul class="about-company">
-      <li class="delivery-1">Деловые линии</li>
-      <li class="delivery-2">Автотрейдинг</li>
-      <li class="delivery-3">ЖелДорЭкспедиция</li>
-    </ul>
-    <a class="more-about-company" href="#">Подробнее о компании</a>
+    <div class="company">
+      <h2>Компания «Техномарт»</h2>
+      <p class="paragraph-1">
+        Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+        строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+      <p class="paragraph-2">
+        Мы можем доставить ваш товар в самые отдаленные точки России!
+        Техномарт работает со многими транспортными компаниями:</p>
+      <ul class="about-company">
+        <li class="delivery-1">Деловые линии</li>
+        <li class="delivery-2">Автотрейдинг</li>
+        <li class="delivery-3">ЖелДорЭкспедиция</li>
+      </ul>
+           <a class="more-about-company" href="#">Подробнее о компании</a>
+    </div>
   </section>
   <section>
-    <h2>Контакты</h2>
-    <p class="talk">Вы можете забрать товар сами, заехав в наш офис:</p>
+    <h2 class="contacts-title">Контакты</h2>
+    <p class="talk">
+      Вы можете забрать товар сами,
+      заехав в наш офис:
+    </p>
     <div>
       <a class="maps" href="#"><img src="img\map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
     </div>
@@ -59,8 +82,9 @@
   <footer class="main-footer">
     <h2><a class="main-header-logo" href="index.html">Техномарт</a></h2>
     <div class="footer-contacts">
-      <span class="aside-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-      <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+      <p class="aside-adress">
+        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        <a class="phone-number-footer" href="tel:+78125550555">+7 (812) 555-05-55</a></p>
     </div>
     <section class="footer-info">
       <h2 class="visually-hidden">Меню навигации</h2>
@@ -79,8 +103,10 @@
       </ul>
     </section>
     <div class="copyright">
-      <span class="copy">© 2010–2017 Компания «Техномарт»</span>
-      <span class="copy-info">Все права защищены</span>
+      <p>
+        <span class="copy">© 2010–2017 Компания «Техномарт»</span>
+        <span class="copy-info">Все права защищены</span>
+      </p>
     </div>
     <div class="footer-social">
       <ul>
@@ -90,12 +116,16 @@
       </ul>
     </div>
     <div class="footer-copyright">
-      <span class="feedback"><b>Обратная связь:</b></span>
-      <span><a class="button-mail" href="#">mail@htmlacademy.ru</a></span>
+      <p>
+        <span class="feedback">Обратная связь:</span>
+        <span><a class="button-mail" href="#">mail@htmlacademy.ru</a></span>
+      </p>
     </div>
     <div class="footer-copyright-0">
-      <span class="footer-copyright-1"><b>Разработано -</b></span>
-      <span><a class="button-mail" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></span>
+      <p>
+        <span class="footer-copyright-1">Разработано -</span>
+        <span><a class="button-mail" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></span>
+      </p>
     </div>
   </footer>
   <!-- Форма e-mail -->
@@ -118,7 +148,7 @@
     <button class="visually-hidden modal-close" type="button">Закрыть</button>
   </section>
   <!-- Карта -->
-  <h2 class="visually-hidden">Как до нас добраться</h2>
+  <h2 class="visually-hidden">Как до нас добраться?</h2>
   <div>
     <p>
       <img src="img\map-popup.jpg" width="940" height="446.2" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
