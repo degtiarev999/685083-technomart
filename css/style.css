@@ -153,6 +153,9 @@ a {
 }
 
 .aside-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f3f7f9;
 }
 
@@ -249,6 +252,8 @@ a {
 }
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
   color: #000;
   background-color: #fff;
 }
@@ -256,7 +261,6 @@ a {
 .company {
   display: flex;
   flex-direction: column;
-  width: 1920px;
   font-family: "PTSans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
