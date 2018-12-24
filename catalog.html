@@ -11,19 +11,18 @@
 
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
+    <nav class="navigation-catalog">
       <div class="main-navigation-wrapper">
         <div class="container">
           <a class="logo" href="index.html">Техномарт</a>
           <ul class="site-navigation">
             <li class="search">
               <form>
-                <label class="visually-hidden" for="search-icon">Поиск</label>
-                <input class="search-icon" id="search-icon" name="search" type="text" placeholder="Поиск:">
-                <button class="visually-hidden button-search" type="button">Найти</button>
+                <input class="search-icon" id="search-icon" name="search" type="text">
+                <label for="search-icon">Поиск:</label>
               </form>
             </li>
-            <li><a class="bookmarks" href="bookmarks.html">Закладки</a></li>
+            <li><a class="bookmarks" href="bookmarks.html">Закладки: 0</a></li>
             <li><a class="basket color" href="basket.html">Корзина: 10</a></li>
             <li><a class="order" href="order.html">Оформить заказ</a></li>
           </ul>
@@ -42,7 +41,7 @@
           <div class="user-profile box">
             <div class="user-profile-list">
               <a class="profile" href="#"><img src="img\icon-user.svg" alt="Иконка пользователя">Равшан Джамшутович</a>
-              <a class="profile-exit" href="#">Выйти</a>
+              <a class="profile-exit" href="#"></a>
             </div>
 
             <div class="user-office">
@@ -301,11 +300,9 @@
           <span class="copy-info">Все права защищены</span>
         </div>
         <div class="footer-social">
-          <ul>
-            <li><a class="social-button" href="#">Вконтакте</a></li>
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">Инстаграм</a></li>
-          </ul>
+            <a class="social-button btn-vk" href="#">Вконтакте</a>
+            <a class="social-button btn-fb" href="#">Фейсбук</a>
+            <a class="social-button btn-inst" href="#">Инстаграм</a>
         </div>
         <div class="footer-copyright">
           <span class="feedback">Обратная связь:</span>
