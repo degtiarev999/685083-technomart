@@ -130,7 +130,7 @@ a {
 
 .basket {
   color: #fff;
-  padding: 12px 30px 12px 43px;
+  padding: 13px 30px 12px 43px;
   position: relative;
 }
 
@@ -145,7 +145,7 @@ a {
   left: 7px;
   top: 13px;
   width: 30px;
-  height: 30px;
+  height: 29px;
   background: #293449 url("../img/icon-cart.svg");
   background-repeat:  no-repeat;
   opacity: 0.5;
@@ -358,7 +358,7 @@ a.color::before {
 
 a.order {
   line-height: 18px;
-  padding: 14px 22px 12px 20px;
+  padding: 13px 22px 12px 20px;
   background-color: #63a63e;
 }
 
@@ -390,13 +390,6 @@ a.order:focus {
   margin: 0 auto;
   position: relative;
   display: flex;
-}
-
-.container-2 {
-  width: 700px;
-  margin: 0 auto;
-  display: flex;
-  box-sizing: border-box;
 }
 
 .aside-info {
@@ -500,8 +493,11 @@ a.logo:focus {
 
 .nav-menu {
   width: 360px;
+  height: 59px;
   padding: 0;
+  margin: 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
   list-style: none;
@@ -715,16 +711,6 @@ a.logo:focus {
   opacity: 0.5;
 }
 
-.catalog-list {
-  width: 700px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 20px auto;
-  padding: 0;
-}
-
 .catalog-columns {
   display: flex;
   background-color: #fff;
@@ -736,6 +722,19 @@ a.logo:focus {
 }
 
 .catalog-item {
+    position:relative;
+    display:inline-block;
+    width:218px;
+    margin-right:20px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    line-height:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.catalog-item {
+  position: relative;
   width: 220px;
   display: flex;
   flex-direction: column;
@@ -746,20 +745,17 @@ a.logo:focus {
 }
 
 .catalog-item h3 {
-  margin: 0;
-  padding: 0;
-}
-
-.catalog-item a {
-  color: #000;
-}
-
-.catalog-item h3 {
   font-family: "PTSans", Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 20px;
   text-align: center;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item a {
   color: #000;
 }
 
@@ -779,38 +775,19 @@ a.logo:focus {
 }
 
 .catalog-item-price {
-  display: flex;
-  justify-content: center;
   font-family: "PTSans", Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   line-height: 18px;
-  text-align: center;
-  background-color: #ee3643;
   color: #fff;
-  position: relative;
-  width: 80px;
-  margin: 10px auto;
-  margin-bottom: 20px;
-  padding: 10px 30px;
-  border-radius: 3px;
 }
-
-.catalog-item-price:after {
-  content:"";
-  position: absolute;
-  top:0;
-  right: -20px;
-  width: 0;
-  height: 0;
-  border:20px solid white;
-  border-left-color:#ee3643;
-}
+*/
 
 .card-item {
-  position: absolute;
+  display: none;
+  position: relative;
   top: 0;
-  left: 0;
+  left: 50px;
   width: 218px;
   height: 88px;
   padding: 40px 0;
@@ -1048,74 +1025,22 @@ a.logo {
 
 .footer-social {
   display: flex;
-  position: relative;
+  width: 141px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .social-button {
   display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
   background-color: #212a3a;
+  border-radius: 30px;
 }
-
-/*
-.btn-vk {
-  background: #212A3A url("../img/icon-vk.svg") no-repeat -2px -55px;
-}
-
-.btn-fb {
-  background: #212A3A url("../img/icon-fb.svg") no-repeat -3px -154px;
-}
-
-.btn-inst {
-  background: #212A3A url("../img/icon-insta.svg") no-repeat -2px -104px;
-}
-
-.btn-vk:hover {
-  background: #ee3643 url("../img/icon-vk.svg") no-repeat -2px -55px;
-}
-
-.btn-fb:hover {
-  background: #ee3643 url("../img/icon-fb.svg") no-repeat -3px -154px;
-}
-
-.btn-inst:hover {
-  background: #ee3643 url("../img/icon-insta.svg") no-repeat -2px -104px;
-}
-
-.btn-vk:focus {
-  background: #ee3643 url("../img/icon-vk.svg) no-repeat -2px -55px;
-  opacity: 0.5;
-}
-
-.btn-fb:focus {
-  background: #ee3643 url("../img/icon-fb.svg") no-repeat: -3px -154px;
-  opacity: 0.5;
-}
-
-.btn-inst:focus {
-  background: #ee3643 url("../img/icon-insta.svg") no-repeat -2px -104px;
-  opacity: 0.5;
-}
-*/
-
-
-/*
-.social-button::before {
-  content: "";
-  position: absolute;
-  top:5px;
-  width: 41px;
-  height: 42px;
-  background: url("../img/icon-vk.svg");
-  background-repeat: no-repeat;
-}
-
-.social-button:hover::before {
-  background-color: #ee3643;
-}
-*/
 
 .footer-social a:hover {
   background-color: #ee3643;
@@ -1135,10 +1060,11 @@ a.logo {
 
 .footer-copyright {
   width: 135px;
+  margin-right: 53px;
   display: inline-block;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 .footer-copyright a {
   font-family: "Cuprum", Arial, sans-serif;
