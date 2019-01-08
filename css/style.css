@@ -10,25 +10,24 @@ body {
 }
 
 a {
-  text-decoration: none;
+
 }
 
 .main-navigation {
   margin: 0 auto;
   background-color: #f3f7f9;
   margin-bottom: 50px;
-  height: 320px;
+  padding-bottom: 60px;
+  text-decoration: none;
 }
 
 .navigation-catalog {
   margin: 0 auto;
   background-color: #f3f7f9;
-  height: 320px;
+  padding-bottom: 60px;
 }
 
 .main-navigation-wrapper {
-  width: 1280px;
-  height: 42px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -56,6 +55,8 @@ a {
 }
 
 .search {
+  overflow: hidden;
+  width: 270px;
   position: relative;
   display: inline-block;
 }
@@ -93,6 +94,8 @@ a {
 }
 
 .bookmarks  {
+  overflow: hidden;
+  width: 150px;
   position: relative;
   overflow: hidden;
   padding: 12px 30px 10px 43px;
@@ -129,9 +132,12 @@ a {
 }
 
 .basket {
+  overflow: hidden;
+  width: 150px;
   color: #fff;
   padding: 13px 30px 12px 43px;
   position: relative;
+  text-decoration: none;
 }
 
 .basket:focus {
@@ -222,9 +228,7 @@ a.color::before {
   background-repeat: no-repeat;
   background-color: #fff;
 }
-*/
 
-/*
 .profile::before {
   content: "";
   position: absolute;
@@ -272,6 +276,7 @@ a.color::before {
   margin: 0;
   padding: 14px 27px 11px 48px;
   background-color: #fff;
+  text-decoration: none;
 }
 
 .open-button::before {
@@ -300,6 +305,7 @@ a.color::before {
   margin-left: 10px;
   padding: 14px 25px 11px;
   background-color: #fff;
+  text-decoration: none;
 }
 
 .menu-navigation {
@@ -321,6 +327,7 @@ a.color::before {
   padding: 22px 31px 26px 37px;
   font-size: 17px;
   line-height: 17px;
+  text-decoration: none;
 }
 
 .site-navigation a {
@@ -357,9 +364,12 @@ a.color::before {
 }
 
 a.order {
+  width: 150px;
   line-height: 18px;
   padding: 13px 22px 12px 20px;
   background-color: #63a63e;
+  position: relative;
+  text-decoration: none;
 }
 
 a.order:hover {
@@ -390,18 +400,19 @@ a.order:focus {
   margin: 0 auto;
   position: relative;
   display: flex;
+  box-sizing: content-box;
 }
 
 .aside-info {
   position: relative;
   top: 10px;
-  width: 196px;
+  width: 206px;
   font-family: "Cuprum", Arial, sans-serif;
   font-style: Italic;
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
-  padding-left: 53px;
+  padding-left: 50px;
   margin: 0;
 }
 
@@ -423,6 +434,7 @@ a.order:focus {
   line-height: 21px;
   border: 3px solid #fff;
   color: #e9292a;
+  text-decoration: none;
 }
 
 .phone-number::before {
@@ -492,6 +504,7 @@ a.logo:focus {
 }
 
 .nav-menu {
+  position: relative;
   width: 360px;
   height: 59px;
   padding: 0;
@@ -501,10 +514,47 @@ a.logo:focus {
   justify-content: space-between;
   text-transform: uppercase;
   list-style: none;
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17.5px;
 }
 
 .nav-menu a {
   color: #000;
+  text-decoration: none;
+}
+
+.catalog-link::before {
+  position: absolute;
+  content: " ";
+  top: 23px;
+  left: 25px;
+  width: 7px;
+  height: 12px;
+  background: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+}
+
+.tool::before {
+  position: absolute;
+  content: " ";
+  top: 23px;
+  left: 112px;
+  width: 7px;
+  height: 12px;
+  background: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+}
+
+.tool::after {
+  position: absolute;
+  content: " ";
+  top: 23px;
+  left: 235px;
+  width: 7px;
+  height: 12px;
+  background: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
 }
 
 .main-heading {
@@ -560,16 +610,20 @@ a.logo:focus {
   font-size: 30px;
   line-height: 30px;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .paragraph-1 {
   margin: 0;
   padding: 0;
+  width: 550px;
+  margin-bottom: 30px;
 }
 
 .paragraph-2 {
   margin: 0;
   padding: 0;
+  width: 450px;
 }
 
 .about-company {
@@ -578,13 +632,17 @@ a.logo:focus {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 37px;
+  margin-bottom: 15px;
+}
+
+.about-company li {
+  margin-bottom: 20px;
 }
 
 .delivery-1::before {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 10px;
   left: 2px;
   width: 25px;
   height: 2px;
@@ -595,7 +653,7 @@ a.logo:focus {
 .delivery-2::before {
   content: "";
   position: absolute;
-  top: 30px;
+  top: 50px;
   left: 2px;
   width: 25px;
   height: 2px;
@@ -606,7 +664,7 @@ a.logo:focus {
 .delivery-3::before {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 90px;
   left: 2px;
   width: 25px;
   height: 2px;
@@ -620,6 +678,7 @@ a.logo:focus {
   padding: 10px;
   text-transform: uppercase;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .more-about-company {
@@ -633,6 +692,14 @@ a.logo:focus {
   background-color: #ee3643;
 }
 
+.more-about-company:hover {
+  background-color: #ca2c37;
+}
+
+.more-about-company:focus {
+  background-color: #ba2732;
+}
+
 .contacts-column {
   display: flex;
   justify-content: flex-end;
@@ -643,21 +710,24 @@ a.logo:focus {
   font-size: 30px;
   line-height: 30px;
   color: #000;
+  text-transform: uppercase;
 }
 
 .talk {
+  width: 193px;
   margin: 0;
+  margin-bottom: 30px;
   font-family: "PTSans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  text-align: left;
+  font-weight: normal;
   color: #000;
 }
 
 .maps {
   width: 300px;
   height: 158px;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 
 .site-map-navigation {
@@ -670,12 +740,30 @@ a.logo:focus {
   background-color: #ee3643;
 }
 
+.site-map-navigation:hover {
+  background-color: #ca2c37;
+}
+
+.site-map-navigation:focus {
+  background-color: #ba2732;
+}
+
 .filters {
   color: #000;
 }
 
+.filter {
+  margin-bottom: 70px;
+}
+
 .filter fieldset {
   border: none;
+  margin: o;
+  padding: 0;
+}
+
+.filter fieldset:first-child {
+  margin-bottom: 54px;
 }
 
 .filter legend {
@@ -691,13 +779,31 @@ a.logo:focus {
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.filter  legend {
+  margin-bottom: 20px;
+}
+
+.filter-option {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.filter-option label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
 }
 
 .filter input {
   background-color: #c5c5c5;
 }
 
-.filter input:hover {
+.filter input:hover + label {
   color: #b5b5b5;
 }
 
@@ -709,6 +815,29 @@ a.logo:focus {
 .filter input:disabled + label {
   color:  #b5b5b5;
   opacity: 0.5;
+}
+
+.checkbox + label::before {
+  content: " ";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  left: -40px;
+  top: -3px;
+}
+
+.checkbox + label:hover::after {
+  content: " ";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background: url("../img/icon-mark-png.png");
+  background-repeat: no-repeat;
+  left: -40px;
+  top: -3px;
+
 }
 
 .catalog-columns {
@@ -757,6 +886,7 @@ a.logo:focus {
 
 .catalog-item a {
   color: #000;
+  text-decoration: none;
 }
 
 .sale-price {
@@ -781,7 +911,6 @@ a.logo:focus {
   line-height: 18px;
   color: #fff;
 }
-*/
 
 .card-item {
   display: none;
@@ -889,6 +1018,7 @@ a.logo:focus {
   font-style: normal;
   text-transform: uppercase;
   margin: 0;
+  text-decoration: none;
 }
 
 a.logo {
@@ -947,6 +1077,7 @@ a.logo {
   line-height: 24px;
   text-align: left;
   color: #f1f5f7;
+  text-decoration: none;
 }
 
 .footer-info {
@@ -970,6 +1101,10 @@ a.logo {
   color: #f1f5f7;
 }
 
+.footer-navigation a {
+  text-decoration: none;
+}
+
 .footer-about-company {
   display: flex;
   justify-content: space-between;
@@ -984,6 +1119,7 @@ a.logo {
   line-height: 24px;
   letter-spacing: normal;
   color: #ffd180;
+  text-decoration: none;
 }
 
 .footer-navigation a:hover {
@@ -996,10 +1132,12 @@ a.logo {
 
 .footer-navigation a:focus {
   color: rgba(241, 245, 247, 0.5);
+  text-decoration: none;
 }
 
 .footer-about-company a:focus {
    color: rgba(255, 209, 128, 0.5);
+  text-decoration: none;
 }
 
 .footer-copyright-columns {
@@ -1072,6 +1210,7 @@ a.logo {
   line-height: 18px;
   text-align: left;
   color: #ffd180;
+  text-decoration: none;
 }
 
 .footer-copyright a:hover {
@@ -1080,6 +1219,7 @@ a.logo {
 
 .footer-copyright a:focus {
   color: #ee3643;
+  text-decoration: none;
 }
 
 .footer-copyright-1 {
@@ -1102,6 +1242,7 @@ a.logo {
   line-height: 18px;
   text-align: left;
   color: #ffd180;
+  text-decoration: none;
 }
 
 .footer-copyright-0 a:hover {
@@ -1110,6 +1251,7 @@ a.logo {
 
 .footer-copyright-0 a:focus {
   color: #ee3643;
+  text-decoration: none;
 }
 
 .checkout {
