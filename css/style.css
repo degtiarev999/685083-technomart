@@ -6,6 +6,7 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #fff;
+    min-width: 940px;
 }
 
 .container {
@@ -265,7 +266,7 @@ body {
 .open-button {
     position: relative;
     margin: 0;
-    padding: 14px 27px 11px 48px;
+    padding: 14px 25px 10px 48px;
     background-color: #fff;
     text-decoration: none;
 }
@@ -294,7 +295,7 @@ body {
 .registration a {
     margin: 0;
     margin-left: 10px;
-    padding: 14px 25px 11px;
+    padding: 14px 25px 10px;
     background-color: #fff;
     text-decoration: none;
 }
@@ -313,14 +314,14 @@ body {
     color: #fff;
     background-color: #32425c;
     box-shadow: inset 0px -5px 0 0 #293449;
-    padding: 20px 31px;
+    padding: 20px 40px 20px 20px;
     font-size: 17px;
     line-height: 17px;
     text-decoration: none;
 }
 
 .menu-navigation a:last-child {
-    padding: 20px 34px;
+    padding: 22px 34px;
 }
 
 .site-navigation a {
@@ -354,7 +355,6 @@ body {
 }
 
 .site-navigation .order {
-    width: 150px;
     line-height: 18px;
     padding: 12px 18px 12px 18px;
     background-color: #63a63e;
@@ -376,8 +376,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #f3f7f9;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 45px;
+    padding-bottom: 37px;
 }
 
 .aside-column .container {
@@ -387,7 +387,7 @@ body {
 
 .aside-info {
     position: relative;
-    top: 10px;
+    top: 4px;
     left: 1px;
     width: 206px;
     font-family: "Cuprum", Arial, sans-serif;
@@ -410,8 +410,8 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 13px 52px 11px 74px;
-    margin-bottom: 6px;
+    padding: 10px 52px 10px 74px;
+    margin-bottom: 3px;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
@@ -497,7 +497,7 @@ body {
     text-transform: uppercase;
     list-style: none;
     font-family: "PTSans", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17.5px;
 }
 
@@ -506,11 +506,23 @@ body {
     text-decoration: none;
 }
 
+.catalog-link {
+  margin-left: 10px;
+}
+
+.tool {
+  margin-left: 10px;
+}
+
+.perforators {
+  margin-left: 10px;
+}
+
 .catalog-link::before {
     position: absolute;
     content: "";
     top: 23px;
-    left: 25px;
+    left: 27px;
     width: 7px;
     height: 12px;
     background: url("../img/icon-right-small.svg");
@@ -521,7 +533,7 @@ body {
     position: absolute;
     content: "";
     top: 23px;
-    left: 112px;
+    left: 123px;
     width: 7px;
     height: 12px;
     background: url("../img/icon-right-small.svg");
@@ -532,7 +544,7 @@ body {
     position: absolute;
     content: "";
     top: 23px;
-    left: 235px;
+    left: 245px;
     width: 7px;
     height: 12px;
     background: url("../img/icon-right-small.svg");
@@ -603,10 +615,11 @@ body {
 }
 
 .promo-item .h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
     display: inline-block;
+    margin-top: 3px;
     margin-bottom: 18px;
     margin-left: 5px;
 }
@@ -688,6 +701,7 @@ body {
     width: 620px;
     position: relative;
     color: #fff;
+    background-color: red;
 }
 
 .slider {
@@ -731,8 +745,8 @@ body {
 .forward,
 .back {
     position: absolute;
-    top: 123px;
-    left: 30px;
+    top: 110px;
+    left: 20px;
     background: url("../img/icon-left.svg") no-repeat 5px 5px;
     font-size: 0;
     width: 20px;
@@ -805,7 +819,7 @@ body {
     font-size: 30px;
     line-height: 30px;
     text-transform: uppercase;
-    margin: 30px 0 26px 28px;
+    margin: 27px 26px 30px;
 }
 
 .btn--products {
@@ -820,7 +834,7 @@ body {
 
 .index-columns {
     padding: 0;
-    margin-bottom: 86px;
+    margin-bottom: 84px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -863,7 +877,7 @@ body {
     margin: 0;
     padding: 0;
     width: 550px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .paragraph-2 {
@@ -878,7 +892,8 @@ body {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
-    margin-bottom: 15px;
+    margin-top: 21px;
+    padding-left: 35px;
 }
 
 .about-company li {
@@ -888,8 +903,8 @@ body {
 .delivery-1::before {
     content: "";
     position: absolute;
-    top: 10px;
-    left: 2px;
+    top: 9px;
+    left: 0px;
     width: 25px;
     height: 2px;
     background: url("../img/Layer-23.png");
@@ -899,8 +914,8 @@ body {
 .delivery-2::before {
     content: "";
     position: absolute;
-    top: 50px;
-    left: 2px;
+    top: 49px;
+    left: 0px;
     width: 25px;
     height: 2px;
     background: url("../img/Layer-23.png");
@@ -910,8 +925,8 @@ body {
 .delivery-3::before {
     content: "";
     position: absolute;
-    top: 90px;
-    left: 2px;
+    top: 89px;
+    left: 0px;
     width: 25px;
     height: 2px;
     background: url("../img/Layer-23.png");
@@ -1023,6 +1038,14 @@ body {
     text-transform: uppercase;
 }
 
+.price-range h3 {
+    font-size: 17.5px;
+    line-height: 31.5px
+    font-family: "PTSans", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .price-range .line {
     margin-bottom: 5px;
 }
@@ -1096,7 +1119,7 @@ body {
 
 .line {
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: 1px solid #e5e5e5;
     border-bottom-width: 0;
 }
@@ -1106,7 +1129,7 @@ body {
 }
 
 .filter {
-    margin-bottom: 70px;
+    margin-bottom: 81px;
 }
 
 .filter fieldset {
@@ -1125,6 +1148,7 @@ body {
     font-size: 17.5px;
     line-height: 31.5px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .filter ul {
@@ -1136,12 +1160,8 @@ body {
     padding: 0;
 }
 
-.filter  legend {
-    margin-bottom: 20px;
-}
-
 .filter-option {
-    padding-left: 40px;
+    padding-left: 30px;
     margin-bottom: 20px;
 }
 
@@ -1164,8 +1184,8 @@ body {
     height: 23px;
     background: url("../img/checkbox-off-hover.png");
     background-repeat: no-repeat;
-    left: -40px;
-    top: -3px;
+    left: -30px;
+    top: 0;
     opacity: 0.7;
 }
 
@@ -1180,8 +1200,8 @@ body {
     height: 23px;
     background: url("../img/checkbox-on-hover.png");
     background-repeat: no-repeat;
-    left: -40px;
-    top: -3px;
+    left: -30px;
+    top: 0;
     opacity: 0.7;
 }
 
@@ -1200,8 +1220,8 @@ body {
     height: 25px;
     background-image: url("../img/radio-off-hover.png");
     background-repeat: no-repeat;
-    left: -40px;
-    top: -3px;
+    left: -30px;
+    top: 0;
     opacity: 0.7
 }
 
@@ -1216,8 +1236,8 @@ body {
     height: 25px;
     background-image: url("../img/radio-on-hover.png");
     background-repeat: no-repeat;
-    left: -40px;
-    top: -3px;
+    left: -30px;
+    top: 0;
     opacity: 0.7;
 }
 
@@ -1244,7 +1264,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    margin-bottom: 52px;
+    margin-bottom: 40px;
 }
 
 .catalog {
@@ -1367,13 +1387,17 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .catalog-products li:nth-child(1),
 .catalog-products li:nth-child(2),
 .catalog-products li:nth-child(3) {
     margin-right: 18px;
+}
+
+.catalog-products li:nth-child(4) {
+  margin-right: 0;
 }
 
 .manufacturers {
@@ -1418,6 +1442,10 @@ body {
     text-align: center;
 }
 
+.manufacturers-list a:nth-child(3) img {
+    padding: 45px 30px 50px 37px;
+}
+
 .manufacturers-list a:nth-child(4) img {
     padding: 21px 0 0 9px;
 }
@@ -1443,7 +1471,7 @@ body {
     color: #000;
     list-style: none;
     text-decoration: none;
-    margin-bottom: 77px;
+    margin-bottom: 55px;
 }
 
 .service-slider-control {
@@ -1478,8 +1506,8 @@ body {
     line-height: 30px;
     font-weight: normal;
     text-transform: uppercase;
-    padding-top: 63px;
-    padding-bottom: 35px;
+    padding-top: 45px;
+    padding-bottom: 25px;
     margin: 0;
 }
 
@@ -1495,12 +1523,12 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    padding-bottom: 95px;
-    padding-top: 69px;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 .service-slider-controls li {
-    padding: 13px 135px 16px 22px;
+    padding: 13px 143px 16px 22px;
     background-color: #32425c;
     border-bottom: 1px solid #293449;
     border-top: 1px solid #405069;
@@ -1530,8 +1558,8 @@ body {
     content: "";
     position: absolute;
     z-index: 70;
-    top: 45px;
-    left: 222px;
+    top: 30px;
+    left: 231px;
     width: 15px;
     height: 284px;
     background: url(../img/line.png) no-repeat;
@@ -1540,6 +1568,7 @@ body {
 
 .slide-guarantee {
     padding-left: 80px;
+    padding-bottom: 40px;
 }
 
 .slide-guarantee h2 {
@@ -1550,7 +1579,7 @@ body {
     color: #32425c;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .slide-guarantee p {
@@ -1572,7 +1601,7 @@ body {
 .slide-guarantee:after {
     content: "";
     position: absolute;
-    top: 120px;
+    top: 95px;
     right: 0px;
     width: 468px;
     height: 268px;
@@ -1586,7 +1615,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     line-height: 20px;
     font-weight: bold;
@@ -1608,13 +1637,13 @@ body {
 
 .catalog-item h3 {
     font-family: "PTSans", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 20px;
     text-align: center;
     color: #000;
-    margin-bottom: 10px;
-    padding: 37px 28px 0 27px;
+    margin-bottom: 12px;
+    padding-top: 20px;
 }
 
 .catalog-item a {
@@ -1665,10 +1694,9 @@ body {
 
 .card-item {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 218px;
-    height: 88px;
+    top: 9px;
+    left: 14px;
+    width: 200px;
     padding: 35px 0px;
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.9);
@@ -1677,7 +1705,7 @@ body {
 .catalog-item .card-item .button-buy,
 .catalog-item .card-item .button-buy-1 {
     display: block;
-    width: 129px;
+    width: 135px;
     margin: 0 auto;
     margin-bottom: 7px;
     padding: 7px 0;
@@ -1691,12 +1719,12 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .catalog-item .card-item .button-buy-1 {
     color: #32425c;
     background: white;
-    border-bottom-color: #63a63e;
 }
 
 .catalog-item:hover {
@@ -1732,29 +1760,24 @@ body {
     border: 3px solid #63a63e;
 }
 
-.catalog-item:hover .button-buy {
-    border-bottom-color: #367315;
-}
-
-.catalog-item:hover .button-buy:hover {
+.card-item .button-buy:hover {
     background-color: #5fbb2d;
     border-color: #5fbb2d;
     border-bottom-color: #367315;
 }
 
-.catalog-item:hover .button-buy:focus {
+.card-item .button-buy:active {
     background-color: #518534;
     color: #fff;
     border-color: #518534;
 }
 
-.catalog-item:hover .button-buy-1:hover {
+.card-item:hover .button-buy-1:hover {
     border-color: #32425c;
 }
 
-.catalog-item:hover .button-buy-1:focus {
+.card-item:hover .button-buy-1:active {
     opacity: 0.3;
-    color: rgba(50, 66, 92, 0.3);
     border-color: #32425c;
 }
 
@@ -1778,7 +1801,7 @@ body {
     opacity: 1;
 }
 
-.catalog-item:hover .button-buy:focus::before {
+.catalog-item:hover .button-buy:active::before {
     opacity: 1;
 }
 
@@ -1801,7 +1824,7 @@ body {
 .catalog__paginator {
     margin: 0;
     padding-left: 240px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .catalog__paginator ul {
@@ -1822,7 +1845,7 @@ body {
 
 .page-button {
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 11px 17px;
     border: 1px solid #e5e5e5;
     color: #000;
     text-transform: uppercase;
@@ -1836,6 +1859,10 @@ body {
 .page-button:active {
     border: 1px solid #ee3643;
     color: #000;
+}
+
+.btn-next {
+  padding: 11px 33px;
 }
 
 .page-button--active {
@@ -1868,20 +1895,19 @@ body {
     color: #000;
     font-size: 30px;
     font-weight: 400;
-    margin: 0 0 20px;
+    margin: 0 0 27px;
 }
 
 .about-product p {
     font-family: "PTSans", Arial, sans-serif;
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 13px;
     color: #000;
     line-height: 24px;
     margin: 0;
 }
 
 .about-product-text {
-    padding: 70px 0;
+    padding: 65px 0 70px;
     background-color: #f2f6f8;
 }
 
@@ -1931,21 +1957,22 @@ body {
     left: 0px;
     top: 41px;
     width: 220px;
-    height: 4px;
+    height: 6px;
     background: #b52933;
 }
 
 .footer-list .logo {
     position: relative;
-    margin-bottom: 32px;
-    height: 68px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    font-size: 30px;
 }
 
 .footer-list .logo::before {
     position: absolute;
     content: "";
     left: 0px;
-    top: 67px;
+    top: 64px;
     width: 220px;
     height: 4px;
     background: #b52933;
@@ -1955,7 +1982,7 @@ body {
     width: 323px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 45px;
+    padding-bottom: 50px;
 }
 
 .aside-adress {
@@ -1978,7 +2005,7 @@ body {
 }
 
 .footer-info {
-    padding-top: 22px;
+    padding-top: 20px;
     width: 650px;
     display: flex;
     flex-direction: column;
@@ -1991,7 +2018,6 @@ body {
     justify-content: space-between;
     font-family: "Cuprum", Arial, sans-serif;
     padding: 0;
-    margin-bottom: 22px;
     font-size: 18px;
     line-height: 24px;
     list-style: none;
@@ -2040,7 +2066,7 @@ body {
 
 .footer-copyright-columns {
     display: flex;
-    padding-top: 34px;
+    padding-top: 40px;
     padding-bottom: 30px;
     background-color: #293449;
 }
@@ -2067,6 +2093,7 @@ body {
     list-style: none;
     margin: 0 auto;
     padding: 0;
+    margin-left: 163px;
 }
 
 .social-button {
@@ -2097,7 +2124,7 @@ body {
 
 .footer-copyright {
     width: 135px;
-    margin-right: 53px;
+    margin-right: 50px;
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -2133,6 +2160,7 @@ body {
     width: 96px;
     display: inline-block;
     flex-wrap: wrap;
+    margin-right: 20px;
 }
 
 .footer-copyright-0 a {
