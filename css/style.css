@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 14px;
-    line-height: 24px;
     font-weight: 400;
     color: #fff;
     min-width: 940px;
@@ -1824,7 +1823,7 @@ body {
 .catalog__paginator {
     margin: 0;
     padding-left: 240px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .catalog__paginator ul {
@@ -1907,7 +1906,7 @@ body {
 }
 
 .about-product-text {
-    padding: 65px 0 70px;
+    padding: 58px 0 64px;
     background-color: #f2f6f8;
 }
 
@@ -2066,7 +2065,7 @@ body {
 
 .footer-copyright-columns {
     display: flex;
-    padding-top: 40px;
+    padding-top: 37px;
     padding-bottom: 30px;
     background-color: #293449;
 }
@@ -2124,7 +2123,7 @@ body {
 
 .footer-copyright {
     width: 135px;
-    margin-right: 50px;
+    margin-right: 53px;
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -2160,7 +2159,7 @@ body {
     width: 96px;
     display: inline-block;
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .footer-copyright-0 a {
